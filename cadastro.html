@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>usuário</legend>
+            <label for="iname">Nome:</label>
+           <input type="text" id="iname" name="emname" placeholder="Digite seu nome">
+           <br>
+           <label for="idata">Data de nascimento:</label>
+           <input type="date" id="idata" name="ddata">
+           <br>
+           <label for="iemail">Email:</label>
+           <input type="text" id="iemail" name="eemail">
+           <br>
+           <label for="ieemail">Confirme seu email:</label>
+           <input type="text" id="ieemail" name="eemail">
+           <br>
+           <label for="isexo">Sexo:</label>
+           <select name="slsexo" id="isexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="A">Agênero</option>
+        
+           </select>
+           <br>
+           <label for="">Tipo:</label> 
+           <br>
+           <input type="radio" name="rtipo" id="iusuario" value="U">
+           <label for="isuario">Usuario</label>
+           <br>
+           <input type="radio" name="rtipo" id="iadmin" value="A">
+           <label for="iadmin">Administrador</label>
+           <br>
+           <label for="ifale">Fale sobre você:</label>
+           <br>
+           <textarea name="txtafale" id="ifale" cols="30" rows="5"></textarea>
+            <br>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+
+         
+        </fieldset>
+        </form>
+    
+</body>
+</html>

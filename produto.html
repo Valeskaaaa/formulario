@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>   <form action="#">
+    <fieldset>
+        <legend>Produto</legend>
+        <label for="iproduto">Produto:</label>
+       <input type="text" id="iproduto" name="emproduto" placeholder="Digite aqui">
+       <br>
+       <label for="idata">Data cadastro:</label>
+       <input type="date" id="idata" name="ddata">
+       <br>
+       <label for="ipeso">Peso:</label>
+       <input type="number" id="ipeso" name="empeso">
+       <br>
+
+       <label for="icategoria">Categoria:</label>
+       <select name="slcategoria" id="icategoria">
+        <option value="E">Eletrônico</option>
+        <option value="M">Movies</option>
+    
+       </select>
+       <br>
+       <label for="">Tipo:</label> 
+       <br>
+       <input type="radio" name="rtipo" id="inovo" value="N">
+       <label for="inovo">Novo</label>
+       <br>
+       <input type="radio" name="rtipo" id="iusado" value="U">
+       <label for="iusado">Usado</label>
+       <br>
+       <label for="idesc">Descrição:</label>
+       <br>
+       <textarea name="txtdescri" id="idesc" cols="30" rows="5"></textarea>
+       <br>
+<label for="aval">Avaliação (0-10)</label>
+<input type="range" id="aval" name="aval" min="0" max="10">
+<br>
+
+       <input type="submit" value="Entrar">
+       <input type="reset" value="Limpar">
+
+     
+    </fieldset>
+    </form>
+</body>
+</html>
